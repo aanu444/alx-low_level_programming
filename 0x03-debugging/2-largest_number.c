@@ -5,7 +5,7 @@
  * @a: first int
  * @b: second int
  * #c: third int
- *Return: largest number of the three
+ *Return: largest number of the three is success
  */
 
 int largest_number(int a, int b, int c)
