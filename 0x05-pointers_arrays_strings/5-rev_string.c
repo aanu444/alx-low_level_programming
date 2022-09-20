@@ -6,7 +6,7 @@
  * Return: string in reverse
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	char rev = s[0];
 	int counter = 0;
@@ -14,7 +14,7 @@ void print_rev(char *s)
 
 	while (s[counter] != '\0')
 		counter++;
-	for (i = i - 1; i >= counter; i++)
+	for (i = 0; i < counter; i++)
 	{	
 		counter--;
 		rev = s[i];

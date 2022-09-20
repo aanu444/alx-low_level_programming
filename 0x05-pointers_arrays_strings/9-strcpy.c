@@ -7,7 +7,7 @@
  * Return: string
  */
 
-char *_strcopy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int len = 0;
 
@@ -16,6 +16,7 @@ char *_strcopy(char *dest, char *src)
 		*(dest + len) = *(src + len);
 		len++;
 	}
+
 	*(dest + len) = '\0';
 	
 	return (dest);
