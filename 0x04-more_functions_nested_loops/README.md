@@ -1,1 +1,1 @@
-omoo o
+This is a readme file

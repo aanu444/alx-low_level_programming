@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
- * main - print largest prime factor
- * Return - 0 on success
+ * main - print largest prime factor of 612852475143
+ * Return: 0 on success
  */
 
 int main(void)
@@ -13,7 +14,7 @@ int main(void)
 	{
 		if (num % divisor == 0)
 		{
-			num /= divisor
+			num /= divisor;
 			divisor = 2;
 		}
 		else

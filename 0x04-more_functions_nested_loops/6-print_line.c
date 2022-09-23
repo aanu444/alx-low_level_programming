@@ -1,8 +1,10 @@
 #include "main.h"
 /**
  * print_line - print a straight line
- * @n: is the no of times the character should be printed
- */
+ *
+ * @n: is the number of times the _ character
+ *     should be printed
+*/
 void print_line(int n)
 {
 	int i;

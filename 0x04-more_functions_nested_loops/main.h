@@ -3,28 +3,36 @@
 /**
  * _putchar - prints the given char
  * @c: the char to be printed
- * Return: On success 1
+ * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
 
 int _putchar(char c);
 
 /**
- * _isupper - cheches for upperchase character
- * @c: the character to be checked
+ * _isupper - cheches for uppercase character
+ * @c: The character to be checked
+ * Return: 1 if c is uppercase, 0 otherwise
+ */
+
+int _isupper(int c);
+
+/**
+ * isdigit - checkes for digit 0 through 9
+ * @c: the char to be checked
  * Return: 1 if c is digit, otherwise 0
  */
 
 int _isdigit(int c);
 
 /**
- * mul - multiplies two integers
- * @a: number 1
- * @b: number 2
- * Return: the multiplication result of the numbers
+ * mul - multipies two integers
+ * @a: number1
+ * @b: number2
+ * Return: The multiplication result of the numbers
  */
 
-int mul(int a , int b);
+int mul(int a, int b);
 
 /**
  * print_numbers - prints integer from 0 to 9
@@ -39,22 +47,23 @@ void print_numbers(void);
 void print_most_numbers(void);
 
 /**
- * more_numbers - prints 10 times the numbers, from 0 to 14
- * followed by a new line
+ * more_numbers - prints 10 times the numbers, from 0 to 14,
+ * followed by a new line.
  */
 
 void more_numbers(void);
 
 /**
  * print_line - draws a line
- * @n: the length of the line
+ * @n: The length of the line
  */
 
 void print_line(int n);
- /**
-  * print_diagonal - draws a diagonal line on the terminal
-  * @n: the length of the line
-  */
+
+/**
+ * print_diagonal - draws a diagonal line on the terminal
+ * @n: The length of the line
+ */
 
 void print_diagonal(int n);
 
@@ -67,7 +76,7 @@ void print_square(int size);
 
 /**
  * print_triangle - prints a triangle, followed by a new line
- * @size: is the size of the triangle
+ * @size:  is the size of the triangle
  */
 
 void print_triangle(int size);
