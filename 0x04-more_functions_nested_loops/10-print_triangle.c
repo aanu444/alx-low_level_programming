@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * print_traingle - prints a triangle, followed by a new line
  * @size: is the size of the traingle
  */
+
 void print_triangle(int size)
 {
 	int i;
@@ -12,7 +14,7 @@ void print_triangle(int size)
 	if(size <= 0)
 	{
 		_putchar('\n');
-	}else
+	} else
 	{
 		for (i = 1; i <= size; i++)
 		{

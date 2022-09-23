@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	unsigned long sum = 612852475143;
+	unsigned long num = 612852475143;
 	unsigned long divisor = 2;
 
 	while (divisor < num)
