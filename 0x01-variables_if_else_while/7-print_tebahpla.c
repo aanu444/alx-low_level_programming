@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (success)
+ * Description: 'print something to the terminal'
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char c;
-	c = 'z';
-	while
-		(c >= 'a'){
-			putchar(c);
-			c--;
-		}
+	char ch;
+
+	for (ch = 'z' ; ch >= 'a' ; ch--)
+		putchar(ch);
 	putchar('\n');
 	return (0);
 }
+

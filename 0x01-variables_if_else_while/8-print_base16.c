@@ -1,24 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- * Return: Always 0 (success)
+ * main - Entry Point
+ * Description: 'print out 0-9'
+ * Return: ''
  */
+
 int main(void)
 {
-	char c;
-	int d;
-	c = 'a';
-	d = 0;
-	while
-		(d < 10) {
-			putchar(d + '0');
-			d++;
-		}
-	while
-		(c <= 'f'){
-			putchar(c);
-			c++;
-		}
+	int i;
+	char ch;
+
+	for (i = '0' ; i <= '9' ; i++)
+		putchar(i);
+	for (ch = 'a' ; ch <= 'f' ; ch++)
+		putchar(ch);
 	putchar('\n');
 	return (0);
 }

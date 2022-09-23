@@ -1,15 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- * Return: Always 0 (success)
+ * main - Entry Point
+ * Description: 'print out 0-9'
+ * Return: ''
  */
+
 int main(void)
 {
-	int a;
-	for (a=0;a<10;a++)
+	int i;
+
+	for (i = '0' ; i <= '9' ; i++)
 	{
-		putchar(a + '0');
-		if (a < 9)
+		putchar(i);
+
+		if (i < '9')
 		{
 			putchar(',');
 			putchar(' ');

@@ -1,24 +1,19 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
- * Return: Always 0 (success)
+ * Description: 'print something to the terminal'
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char c;
-	char d;
+	char ch;
 
-	c = 'a';
-	d = 'A';
-	while
-		(c <= 'z'){
-			putchar(c);
-			c++;
-		}
-	while
-		(d <= 'z'){
-			putchar(c);
-			d++;
-		}
-	return(0);
+	for (ch = 'a' ; ch <= 'z' ; ch++)
+		putchar(ch);
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
+		putchar(ch);
+	putchar('\n');
+	return (0);
 }

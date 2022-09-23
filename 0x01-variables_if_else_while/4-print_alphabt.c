@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (success)
+ * Description: 'print something to the terminal'
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	char c;
-	c = 'a';
-	while
-		(c <= 'z') {
-			if((c != 'q' && c != 'e') && c <= 'z')
-				putchar(c);
-			c++;
-		}
+	char ch;
+
+	for (ch = 'a' ; ch <= 'z' ; ch++)
+		if (ch != 'q' && ch != 'e')
+			putchar(ch);
 	putchar('\n');
-	return(0);
+	return (0);
 }
+
